@@ -6,20 +6,41 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>로그인</title>
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/common.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 768px)" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/common.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/mobile.css" media="(max-width: 768px)" />
   </head>
   <body id="tai-login">
     <div class="wrapper">
       <!--login modal-->
-      <div class="modal_all_wrap" id="modalLogin" s>
+      <div class="modal_all_wrap" id="modalLogin">
         <div class="modal_con">
           <div class="modal-icon ic-warring">연필</div>
           <div class="modal-tit">이름/이메일주소가 잘못 되었거나<br />존재하지 않습니다.<br />고객센터(02-2695-1120)에 문의바랍니다.</div>
           <button id="modalLogin-close" class="btn_basic_01 tac btn-chk modal_close_btn" alt="확인">확인</button>
         </div>
       </div>
+
+      <!--평가진단중 modal-->
+      <div class="modal_all_wrap" id="modalLogin">
+        <div class="modal_con">
+          <div class="modal-icon ic-process mg10">진행</div>
+          <div class="modal-btit">평가 완료</div>
+          <div class="modal-tit">이전 진단평가 자료가 있습니다.<br />이어서 진단 평가를 진행하시겠습니까?</div>
+          <button id="modalLogin-close" class="btn_basic_01 tac btn-chk modal_close_btn" alt="확인">확인</button>
+        </div>
+      </div>
+
+      <!-- 진단완료 modal-->
+      <div class="modal_all_wrap" id="modalLogin">
+        <div class="modal_con">
+          <div class="modal-icon ic-process mg10">완료</div>
+          <div class="modal-btit">평가 완료</div>
+          <div class="modal-tit">팀 진단 평가를 이미 완료했습니다.</div>
+          <button id="modalLogin-close" class="btn_basic_01 tac btn-chk modal_close_btn" alt="확인">확인</button>
+        </div>
+      </div>
+
       <section class="login-wrap">
         <div class="nav-wrap"><div class="nav01"></div></div>
         <div class="content">
@@ -47,9 +68,10 @@
         <footer>Copyright ⓒ 타피루즈그룹. All Rights Reserved.</footer>
       </section>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/script.js"></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/script.js"></script>
     <script></script>
   </body>
 </html>
