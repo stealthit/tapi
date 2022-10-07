@@ -216,6 +216,9 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
 #research-list header span { width:29px; height:39px; border-right:1px solid var(--tai-gray-300); background:url("../img/icon_rsc_icon.svg") no-repeat 0 0; margin-right:10px; flex:0 1 40px; font-size:0; } 
 #research-list header h1 { font-size:var(--tai-font-size-32); font-weight:700; color:var(--tai-body-color); flex:1 1 50% } 
 #research-list header p { font-size:3.8rem; color:var(--tai-red); display:flex; justify-content: flex-end; align-items: flex-end; } 
+#research-list header .header-right{ position: relative;width: 900px; } 
+#research-list header .header-right::after{ content:'0%';position:absolute;clear: both;top:38px;left:-40px; font-size: 2rem;  font-family:'SCDream';color:var(--tai-red)} 
+#research-list header .header-right::before{ content:'100%';position:absolute;clear: both;top:38px;right:-60px; font-size: 2rem;  font-family:'SCDream';color:var(--tai-red)} 
 
 .rsc-list-ul { width:100%; display: flex; flex-direction: column; justify-content: flex-start; margin:30px 0 100px } 
 .rsc-list-ul li { display: flex; flex-direction:column; height:360px; padding:0; margin:0; } 
