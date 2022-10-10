@@ -128,8 +128,16 @@ table.tbl-type01 tfoot td .type-label{min-width:135px;padding-right:10px; }
 .rsc-ul li.btm-img{width:100%;height:200px;padding-top:20px;background:url("../img/start-btm-img.png") no-repeat right 30px;background-size:60% auto}
 .rsc-ul li .btn_basic_01{width:80vw;height:52px;}
 
+#research-list header { height:80px; display:flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; padding: 0 90px;} 
+#research-list header span { width:29px; height:39px; border-right:1px solid var(--tai-gray-300); background:url("../img/icon_rsc_icon.svg") no-repeat 0 0; margin-right:10px; flex:0 1 40px; font-size:0; } 
+#research-list header h1 { font-size:var(--tai-font-size-32); font-weight:700; color:var(--tai-body-color); flex:1 1 50% } 
+#research-list header p { font-size:3.8rem; color:var(--tai-red); display:flex; justify-content: flex-end; align-items: flex-end; } 
+#research-list header .header-right{ position: relative;width: 900px; } 
+#research-list header .header-right::after{ content:'0%';position:absolute;clear: both;top:38px;left:-40px; font-size: 2rem;  font-family:'SCDream';color:var(--tai-red)} 
+#research-list header .header-right::before{ content:'100%';position:absolute;clear: both;top:38px;right:-60px; font-size: 2rem;  font-family:'SCDream';color:var(--tai-red)} 
 
-.rsc-list{margin:30px auto;width:90vw;position:relative}
+
+/* .rsc-list{margin:30px auto;width:90vw;position:relative}
 .rsc-list header{border-bottom:1px solid var(--tai-black-400);height:80px;display:flex;flex-direction: row; justify-content: space-between; align-items: center;}
 .rsc-list header span{width:29px;height:39px;border-right:1px solid var(--tai-gray-300);background:url("../img/icon_rsc_icon.svg") no-repeat 0 0;margin-right:10px;flex:0 1 40px;font-size:0;}
 .rsc-list header p{height:50px;}
@@ -145,7 +153,7 @@ table.tbl-type01 tfoot td .type-label{min-width:135px;padding-right:10px; }
 .rsc-list-ul li .rsc-list-gage .gage-ul{width:100%;height:22px;border-left:2px solid var(--tai-gray);display:flex;flex-direction: row; position:absolute;top:55px;left:0;font-size:0;}
 .rsc-list-ul li .rsc-list-gage .gage-ul li{width:10%;height:22px;border-right:2px solid var(--tai-gray);font-size:0; position:relative}
 .rsc-list-ul li .rsc-list-gage .gage-num{width:30px;height:36px;top:-30px;left:calc(50% - 15px)}
-.rsc-list-ul li .rsc-list-gage .gage-bar{top:65px}
+.rsc-list-ul li .rsc-list-gage .gage-bar{top:65px} */
 
 /*select*/
 #select-wrap .select {background-size:5%}
@@ -153,7 +161,8 @@ table.tbl-type01 tfoot td .type-label{min-width:135px;padding-right:10px; }
 /*radio*/
 .radio-group{width:30px;height:30px}
 /*var(--tai-green)*/
-input[type="radio"]:checked + label.chk_label,
+
+/* input[type="radio"]:checked + label.chk_label,
 input[type="radio"]:not(:checked) + label.chk_label {  width:30px; height:36px; font-size:var(--tai-font-size-16)}
 input[type="radio"]:checked + label.chk_label:before,
 input[type="radio"]:not(:checked) + label.chk_label:before { content: '';  position: absolute;  left: 0;  top: 0;
@@ -161,9 +170,9 @@ input[type="radio"]:not(:checked) + label.chk_label:before { content: '';  posit
 input[type="radio"]:checked + label:before { }
 input[type="radio"]:checked + label.chk_label:after,
 input[type="radio"]:not(:checked) + label.chk_label:after {  content: '';
-width:30px;  height:36px;;background-size:90%;background-position:center 0;background-repeat:no-repeat}
+width:30px;  height:36px;;background-size:90%;background-position:center 0;background-repeat:no-repeat} */
 
-.gn01 > input[type="radio"]:checked + label.chk_label:before,
+/* .gn01 > input[type="radio"]:checked + label.chk_label:before,
 .gn01 > input[type="radio"]:not(:checked) + label.chk_label:before,
 .gn01 > input[type="radio"]:checked + label.chk_label:after,
 .gn01 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'1';line-height:26px;}
@@ -212,7 +221,7 @@ width:30px;  height:36px;;background-size:90%;background-position:center 0;backg
 .gn10 > input[type="radio"]:not(:checked) + label.chk_label:before,
 .gn10 > input[type="radio"]:checked + label.chk_label:after,
 .gn10 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'10';line-height:26px;}
-
+ */
 
 
 .rsc-end{width:90vw;height:400px; background-size:90vw auto ;margin:0 auto}
