@@ -20,22 +20,6 @@ footer{width:100%;height:40px;font-size:1.2rem}
 
 .intro-btn > a{min-width:65.1042vw;font-size: 3rem;}
 
-/* login */
-.login-wrap .content h3{font-size: 5.7rem;}
-.login-wrap .content p{font-size: 3.1rem;}
-.login-wrap .content p span{font-size: 3.1rem;}
-
-.login-wrap .nav01 { width: 96.125vw;} 
-.login-wrap p.warring { font-size: 2rem; margin-top: 20px; margin-right: 400px; } 
-
-
-.login-box{ gap:7.0313vw;margin-top: 64px;flex-direction: column;}
-.login-box ul li{justify-content: flex-end;gap:7.8125vw;margin-bottom: 4.6875vw;margin-right: 15px;}
-.login-box ul li div{font-size: 2.1rem;}
-.login-box .input{width: 70.3125vw;height: 80px;}
-
-.login-btn{min-width:35.8073vw;min-height:16.3646vw;font-size: 3.6rem;}
-
 
 
 .svc-rect{width:80vw;height:auto;margin-bottom:30px;padding:32px 0;}
@@ -137,24 +121,6 @@ table.tbl-type01 tfoot td .type-label{min-width:135px;padding-right:10px; }
 #research-list header .header-right::before{ content:'100%';position:absolute;clear: both;top:38px;right:-60px; font-size: 2rem;  font-family:'SCDream';color:var(--tai-red)} 
 
 
-/* .rsc-list{margin:30px auto;width:90vw;position:relative}
-.rsc-list header{border-bottom:1px solid var(--tai-black-400);height:80px;display:flex;flex-direction: row; justify-content: space-between; align-items: center;}
-.rsc-list header span{width:29px;height:39px;border-right:1px solid var(--tai-gray-300);background:url("../img/icon_rsc_icon.svg") no-repeat 0 0;margin-right:10px;flex:0 1 40px;font-size:0;}
-.rsc-list header p{height:50px;}
-
-.rsc-list-ul{margin:10px 0}
-.rsc-list-ul li{height:160px}
-.rsc-list-ul li .chk-header{height:50px;}
-.rsc-list-ul li .chk-header span{width:30px;height:30px;line-height:30px}
-
-.rsc-list-ul li .btn_basic_02{width:80vw;margin:0 auto}
-
-.rsc-list-ul li .rsc-list-gage{width:100%;height:40px;margin:0 auto;position:relative}
-.rsc-list-ul li .rsc-list-gage .gage-ul{width:100%;height:22px;border-left:2px solid var(--tai-gray);display:flex;flex-direction: row; position:absolute;top:55px;left:0;font-size:0;}
-.rsc-list-ul li .rsc-list-gage .gage-ul li{width:10%;height:22px;border-right:2px solid var(--tai-gray);font-size:0; position:relative}
-.rsc-list-ul li .rsc-list-gage .gage-num{width:30px;height:36px;top:-30px;left:calc(50% - 15px)}
-.rsc-list-ul li .rsc-list-gage .gage-bar{top:65px} */
-
 /*select*/
 #select-wrap .select {background-size:5%}
 
@@ -162,69 +128,13 @@ table.tbl-type01 tfoot td .type-label{min-width:135px;padding-right:10px; }
 .radio-group{width:30px;height:30px}
 /*var(--tai-green)*/
 
-/* input[type="radio"]:checked + label.chk_label,
-input[type="radio"]:not(:checked) + label.chk_label {  width:30px; height:36px; font-size:var(--tai-font-size-16)}
-input[type="radio"]:checked + label.chk_label:before,
-input[type="radio"]:not(:checked) + label.chk_label:before { content: '';  position: absolute;  left: 0;  top: 0;
-  width: 30px;  height: 36px;background-size:90%;background-position:center 0;background-repeat:no-repeat}
-input[type="radio"]:checked + label:before { }
-input[type="radio"]:checked + label.chk_label:after,
-input[type="radio"]:not(:checked) + label.chk_label:after {  content: '';
-width:30px;  height:36px;;background-size:90%;background-position:center 0;background-repeat:no-repeat} */
-
-/* .gn01 > input[type="radio"]:checked + label.chk_label:before,
-.gn01 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn01 > input[type="radio"]:checked + label.chk_label:after,
-.gn01 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'1';line-height:26px;}
-
-.gn02 > input[type="radio"]:checked + label.chk_label:before,
-.gn02 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn02 > input[type="radio"]:checked + label.chk_label:after,
-.gn02 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'2';line-height:26px;}
-
-.gn03 > input[type="radio"]:checked + label.chk_label:before,
-.gn03 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn03 > input[type="radio"]:checked + label.chk_label:after,
-.gn03 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'3';line-height:26px;}
-
-.gn04 > input[type="radio"]:checked + label.chk_label:before,
-.gn04 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn04 > input[type="radio"]:checked + label.chk_label:after,
-.gn04 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'4';line-height:26px;}
-
-.gn05 > input[type="radio"]:checked + label.chk_label:before,
-.gn05 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn05 > input[type="radio"]:checked + label.chk_label:after,
-.gn05 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'5';line-height:26px;}
-
-.gn06 > input[type="radio"]:checked + label.chk_label:before,
-.gn06 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn06 > input[type="radio"]:checked + label.chk_label:after,
-.gn06 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'6';line-height:26px;}
-
-.gn07 > input[type="radio"]:checked + label.chk_label:before,
-.gn07 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn07 > input[type="radio"]:checked + label.chk_label:after,
-.gn07 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'7';line-height:26px;}
-
-.gn08 > input[type="radio"]:checked + label.chk_label:before,
-.gn08 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn08 > input[type="radio"]:checked + label.chk_label:after,
-.gn08 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'8';line-height:26px;}
-
-.gn09 > input[type="radio"]:checked + label.chk_label:before,
-.gn09 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn09 > input[type="radio"]:checked + label.chk_label:after,
-.gn09 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'9';line-height:26px;}
-
-.gn10 > input[type="radio"]:checked + label.chk_label:before,
-.gn10 > input[type="radio"]:not(:checked) + label.chk_label:before,
-.gn10 > input[type="radio"]:checked + label.chk_label:after,
-.gn10 > input[type="radio"]:not(:checked) + label.chk_label:after{content:'10';line-height:26px;}
- */
-
 
 .rsc-end{width:90vw;height:400px; background-size:90vw auto ;margin:0 auto}
 .rsc-end .btn_basic_01{width:60vw;margin-top:200px}
 .rsc-end h1{width:80vw}
 .rsc-end p{margin:20px 0 30px}
+
+@media (max-width:425px){
+  .intro-wrap{padding: 0 20px;}
+  .intro-wrap .content h3{font-size: 3.4rem;}
+}

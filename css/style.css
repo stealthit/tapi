@@ -5,6 +5,7 @@
  PC 기본레이아웃
 ***************************************************************************************/
 .wrapper { width:100%; height:100vh; max-height:100%; position:relative;max-width: 1920px;margin:0 auto; } 
+.container{width:1440px;margin:0 auto;}
 [id*="svc-"] .bgcolor,
 #research-start .bgcolor { background:var(--tai-bg-gray) } 
 
@@ -42,7 +43,7 @@ input[type="text"].input { border:1px solid #888; border-radius: 10px; backgroun
 .login-wrap .content p { font-size: 3.1rem; text-align: center; } 
 .login-wrap .content p span { color:var(--tai-orange); font-size: 3.1rem; } 
 
-.login-wrap .nav-wrap { width: 100%; text-align: right; display: flex; align-items: flex-end; justify-content: flex-end; height: 85px; } 
+.login-wrap .nav-wrap { width: 100%; text-align: right; display: flex; align-items: flex-end; justify-content: flex-end; height: 85px;margin-bottom: 30px; } 
 .login-wrap .nav01 { width: 40.125vw; height: 80px; background: url(../img/nav01.png)no-repeat center/contain;  margin-right: 10px;} 
 .login-wrap p.warring { font-size: 2.4rem; margin-top: 20px; margin-right: 400px; display: none } 
 
@@ -214,7 +215,7 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
 .rsc-ul li .btn_basic_01 { width:335px; height:52px; } 
 
 
-.rsc-list { margin:50px auto; width:144rem;padding:0 24.5rem; position:relative } 
+.rsc-list { margin:50px auto; width:100%;padding:0 24.5rem; position:relative } 
 #research-list header { height:80px; display:flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; padding: 0 90px;} 
 #research-list header span { width:29px; height:39px; border-right:1px solid var(--tai-gray-300); background:url("../img/icon_rsc_icon.svg") no-repeat 0 0; margin-right:10px; flex:0 1 40px; font-size:0; } 
 #research-list header h1 { font-size:var(--tai-font-size-32); font-weight:700; color:var(--tai-body-color); flex:1 1 50% } 
@@ -285,3 +286,31 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
 
 .mail-wrap .footer td { width: 100%; height: 175px; background-color: #f0f0f0; display: flex; align-items: center; text-align: center; justify-content: center; } 
 .mail-wrap .footer ul li { font-size: 14px; margin-bottom: 12px; } 
+
+@media (max-width:1440px){
+    .container{width:100%;}
+    .rsc-list{padding: 0 10.5rem;}
+    .rsc-list-ul li .chk-header p{font-size: 2.5rem;}
+}
+
+@media (max-width:1023px){
+    /* login */
+.login-wrap .content h3{font-size: 5.7rem;}
+.login-wrap .content p{font-size: 3.1rem;}
+.login-wrap .content p span{font-size: 3.1rem;}
+
+.login-wrap .nav01 { width: 96.125vw;} 
+.login-wrap p.warring { font-size: 2rem; margin-top: 20px; margin-right: 400px; } 
+
+
+.login-box{ gap:7.0313vw;margin-top: 64px;flex-direction: column;}
+.login-box ul li{justify-content: flex-end;gap:7.8125vw;margin-bottom: 4.6875vw;margin-right: 15px;}
+.login-box ul li div{font-size: 2.1rem;}
+.login-box .input{width: 70.3125vw;height: 80px;}
+
+.login-btn{min-width:35.8073vw;min-height:16.3646vw;font-size: 3.6rem;}
+
+
+.rsc-list-ul li .chk-header p{white-space: normal;}
+
+}
