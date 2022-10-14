@@ -147,6 +147,7 @@ background-size:auto 0.93cm;font-size:0}
 .pf-ul{display:flex;flex-direction:column;padding:1.25cm 0 0 0;list-style-type:none}
 .pf-ul li{flex-direction: column; justify-content: flex-start;}
 .pf-tit{padding-left:0.86cm;color:#7e7e7e;font-size:1.2rem;font-weight:700;background:url("../img/icon_info.png") no-repeat 0 -2px;background-size: 0.4cm 0.6cm;font-family: 'tway';line-height: 21px;}
+.pf-tit.secon{margin-top: 0.72cm;}
 .pf-tit span{font-family: 'tway';color:#ff5100;}
 .pf-ul li .pf-inner{font-size:0.938rem;padding:1cm 0 1.59cm 0.95cm;color:#333;line-height: 1.7rem;}
 .pf-ul li ol.pf-inner-ol{list-style-type:disc;margin:0;padding:0.34cm 0 1.59cm 1.4cm;line-height: 1.7rem;}
@@ -187,8 +188,7 @@ background-size:auto 0.93cm;font-size:0}
 .pf-result .pf-type {padding: 0 0.9cm 0 1.19cm;}
 .pf-ul li .pf-result .pf-inner03{padding:0 ;line-height:1.5rem ;font-weight: 200;}
 
-.pf-cont{display:flex;align-items: center;gap:0.9cm;padding:0 1.9cm;margin-top: 0.37cm;}
-.pf-cont .pf-rank-tit{}
+.pf-cont{display:flex;align-items: center;justify-content: center;gap:0.9cm;padding:0 1.9cm;margin-top: 0.37cm;}
 .pf-cont .pf-rank-tit p{font-size: 1.3rem;font-family: 'tway';}
 .pf-cont .pf-rank-tit p:first-child{display: flex;align-items: center;justify-content: space-between;margin-bottom: 0.2cm;}
 .pf-cont .pf-rank-ul{display:flex;align-items: center;gap:0.7cm;}
@@ -196,9 +196,23 @@ background-size:auto 0.93cm;font-size:0}
 .pf-cont .pf-rank-ul span{font-size: 1rem;color:#676767;font-family: 'tway';}
 .pf-cont .pf-rank-ul p{font-size: 1.5rem; color:#000000;margin-top: 0.18cm ;font-family: 'tway';}
 
-.rank-detail-ul{margin-top: 0.68cm;}
+.pf-cont .pf-rank-ul.quality li{position: relative;margin-top: 0.38cm;}
+.pf-cont .pf-rank-ul.quality .icon{width: 1.4cm;height: 1.4cm;}
+.pf-cont .pf-rank-ul.quality p{font-size: 1.1rem;margin-top: 0.52cm;}
+.pf-cont .pf-rank-ul.quality .icon.ic-arrow{width:0.5cm;height:0.5cm;position:absolute;right:-22px;top:17px;}
+
+
+.pf-result-dt {margin:0.28cm 2cm 0 2cm}
+.pf-result-dt .icon{width:0.63cm;height:0.64cm;}
+.pf-result-dt > div{display: flex; align-items: center;gap:0.3cm;margin-bottom: 0.4cm;}
+.pf-result-dt p{font-size: 1rem;font-weight: 200;}
+.pf-result-dt > div:last-child{margin-bottom: 0;}
+.pf-result-dt span:not(.icon){font-size: 1rem;font-family: 'tway';}
+.pf-result-dt p::before{content: '｜';padding-right:0.3cm;font-weight: 200;}
+
+.rank-detail-ul{margin: 0.68cm 0.7cm 0 0.7cm;}
 .rank-detail-ul li:first-child{font-size: 1.2rem;font-family: 'tway';margin-bottom: 0.5cm;margin-top: 0;}
-.rank-detail-ul li{font-weight: 200;font-size: 0.95rem;list-style: none;margin-top: 0.28cm;}
+.rank-detail-ul li{font-weight: 200;font-size: 0.9rem;list-style: none;margin-top: 0.28cm;}
 
 table.tbl{margin-top:0.42cm;font-weight:500}
 .bd_right{border-right:0.025cm dashed #ccc;}
@@ -216,6 +230,7 @@ table.tbl td:last-child{text-align:left;border-right:0}
 .team_inner .team_script .team_name01{width:auto;min-width:3.175cm; border-bottom:0.025cm solid #000;color:#000;margin:0 0.2cm;font-weight:700;text-align:center}
 
 .team-graph-wrap{/*width:100%;*/height:7.93cm;border:0.079cm solid #B2B2B2;background:#fff;margin:0.53cm 0.7cm 0 0.7cm;padding:0.264cm;}
+.team-graph-wrap02{/*width:100%;*/height:13cm;border:0.079cm solid #B2B2B2;background:#fff;margin:0.53cm 0.7cm 0 0.7cm;padding:0.264cm;}
 
 .team-graph-type{display:flex;flex-direction: row;justify-content: space-between;margin:0.82cm 0 0 0}
 .team-graph-type .team-graph-type-inner{width:9.25cm;} 
@@ -318,7 +333,13 @@ table.tbl04 td:first-child{font-weight:700;font-family: 'Roboto', sans-serif;fon
 
 .btn_basic_03:hover{background:rgba(0,0,0,1)}
 
-
+/* icon */
+.icon{width:100%;height:100%;font-size: 0;display: inline-block;}
+.ic-openness{background: url(../img/ic-openness.png)no-repeat center/contain;}
+.ic-sincerity{background: url(../img/ic-sincerity.png)no-repeat center/contain;}
+.ic-extraversion{background: url(../img/ic-extraversion.png)no-repeat center/contain;}
+.ic-friendly{background: url(../img/ic-friendly.png)no-repeat center/contain;}
+.ic-arrow{background: url(../img/arrow.png)no-repeat center/contain;}
 /*표지*/
 #page_intro{height:100%;padding:0.42cm 0.4765cm ;position:relative;  font-family:'tway';}
 #page_intro .page_corner{width:0;height:0;border-right:0.582cm solid #ffffff;border-left:0.582cm solid #c4c4c4;border-top:0.582cm solid #ffffff;border-bottom:0.582cm solid #c4c4c4;position:absolute;top:0.42cm;right:0.4765cm;z-index:3}
