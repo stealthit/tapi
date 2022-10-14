@@ -23,9 +23,44 @@
 @font-face { 
   font-family:'SCDream';
   font-style:normal;
+  font-weight: 200; 
+  src:
+  url(../font/SCDream2.otf) format('opentype')
+}
+@font-face { 
+  font-family:'SCDream';
+  font-style:normal;
+  font-weight: 300; 
+  src:
+  url(../font/SCDream3.otf) format('opentype')
+}
+@font-face { 
+  font-family:'SCDream';
+  font-style:normal;
   font-weight: 400; 
   src:
   url(../font/SCDream4.otf) format('opentype')
+}
+@font-face { 
+  font-family:'SCDream';
+  font-style:normal;
+  font-weight: 500; 
+  src:
+  url(../font/SCDream5.otf) format('opentype')
+}
+@font-face { 
+  font-family:'SCDream';
+  font-style:normal;
+  font-weight: 600; 
+  src:
+  url(../font/SCDream6.otf) format('opentype')
+}
+@font-face { 
+  font-family:'SCDream';
+  font-style:normal;
+  font-weight: 700; 
+  src:
+  url(../font/SCDream7.otf) format('opentype')
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
@@ -33,6 +68,7 @@
 body {
   background: rgb(204,204,204); 
   font-family:'SCDream';
+  font-weight: 300;
   color:#333;
   font-size: 62.5%;
 }
@@ -96,8 +132,8 @@ table { border-collapse: collapse; border-spacing: 0; color:#000}
 
 
 #page_header{width:18.4cm;height:2.55cm;display:flex;flex-direction: row; justify-content: space-between;align-items: flex-end; border-bottom: 0.1cm solid #e7e7e7;margin: 0 auto;}
-#page_header h1{width:10cm;margin:0 0 0.3cm 0.24cm;padding:0;display:flex;align-items: center;justify-content: flex-start;font-size: 1.5rem;font-family: 'tway';}
-#page_header .number{width:3cm;height:1.8cm;margin:0 0.8cm 0 0;padding:0;display:flex;align-items: center;justify-content:flex-end;}
+#page_header h1{width:10cm;margin:0 0 0.3cm 0.24cm;padding:0;display:flex;align-items: center;justify-content: flex-start;font-size: 1.1rem;font-family: 'tway';}
+#page_header .number{width:3cm;margin:0 0.24cm 0.3cm 0;padding:0;display:flex;align-items: center;justify-content:flex-end;font-size: 1rem;color:#b7b7b7;font-family: 'tway';}
 
 #page_footer{width:100%;height:0.93cm;display:flex;flex-direction: row; justify-content: center; align-items: center; background:url("../img/footer-logo.png") no-repeat center 0;
 background-size:auto 0.93cm;font-size:0}
@@ -106,18 +142,24 @@ background-size:auto 0.93cm;font-size:0}
 #page_footer strong{font-family:'Merriweather', serif; font-style: italic; font-weight:700}*/
 
 
-#content{width:21cm;padding:0 1.058cm;height:26cm;}
+#content{width:21cm;padding:0 1cm;height:26cm;}
 
 .pf-ul{display:flex;flex-direction:column;padding:1.25cm 0 0 0;list-style-type:none}
 .pf-ul li{flex-direction: column; justify-content: flex-start;}
-.pf-tit{padding-left:0.98cm;color:#b92929;font-size:1.25rem;font-weight:700;background:url("../img/icon_info.png") no-repeat 0 3px}
-.pf-ul li .pf-inner{font-size:0.938rem;padding:0.4cm 0 1.59cm 0;color:#333}
-.pf-ul li ol.pf-inner-ol{list-style-type:disc;margin:0;padding:0.34cm 0 1.59cm 0.79cm}
+.pf-tit{padding-left:0.86cm;color:#7e7e7e;font-size:1.2rem;font-weight:700;background:url("../img/icon_info.png") no-repeat 0 -2px;background-size: 0.4cm 0.6cm;font-family: 'tway';line-height: 21px;}
+.pf-tit span{font-family: 'tway';color:#ff5100;}
+.pf-ul li .pf-inner{font-size:0.938rem;padding:1cm 0 1.59cm 0.95cm;color:#333;line-height: 1.7rem;}
+.pf-ul li ol.pf-inner-ol{list-style-type:disc;margin:0;padding:0.34cm 0 1.59cm 1.4cm;line-height: 1.7rem;}
 .pf-ul li ol.pf-inner-ol.pd-btm{padding-bottom:0.5cm}
 .pf-ul li ol.pf-inner-ol > li{font-size:0.938rem;padding-bottom:0.13cm}
+.pf-ul li ol.pf-inner-ol > li::marker{margin-right: 0;}
 .pf-ul li ol.pf-inner-ol > li.last-child{padding-left:0;list-style-type:none}
 .pf-ul li ol.pf-inner-ol li > ol{list-style-type: decimal;padding:0 0 0 0.39cm;margin:0}
 .pf-ul li ol.pf-inner-ol li > ol li{padding-bottom:0.13cm}
+
+.pf-ul li ul.pf-inner-ul{list-style-type:none;margin:0;padding:0.34cm 0 1.59cm 1cm;line-height: 1.7rem;}
+.pf-ul li ul.pf-inner-ul + .pf-inner {padding:0.4cm 0 1.59cm 0.95cm;}
+.pf-ul li ul.pf-inner-ul > li{font-size:0.938rem;padding-bottom:0.13cm}
 
 .pf-ul li .pf-inner01{background:#f0f0f0;padding:0.53cm}
 .pf-ul li .pf-inner01 .pf-tit01{font-size:1rem;color:#000;font-weight:700}
@@ -125,19 +167,27 @@ background-size:auto 0.93cm;font-size:0}
 .pf-ul li .pf-inner01 ol{padding-left:0.55cm;padding-bottom:0;}
 .pf-ul li .pf-inner01 ol li{font-size:0.875rem;}
 
+.pf-ul li .pf-inner02{font-size:0.938rem;padding:1cm 0 0.5cm 0.95cm;color:#333;line-height: 1.7rem;}
+.pf-ul li .pf-inner03{font-size:0.938rem;padding:0.5cm 0 0.5cm 0.95cm;color:#333;line-height: 1.7rem;}
 
-.pf-type{display:flex;flex-direction: row;justify-content: space-between;}
+
+.pf-type{display:flex;flex-direction: row;justify-content: space-between;padding: 0 1.19cm;}
+.pf-type .pf-type-ic{display:flex;align-items: center;gap:0.4cm;font-size: 1.3rem;line-height: 31px;}
+.pf-type .pf-type-ic .type-con{font-family: 'tway';}
+.pf-type .type-icon{width:2.75cm;height:2.75cm;position: relative;background: url(../img/docs_circle.png)no-repeat center/contain;}
+.pf-type .type-icon div:last-child{position: absolute;left: 19px;top: 19px;width: 1.6cm;height: 2cm;}
+.pf-type .type-icon img{width:100%}
+
 .pf-type .pf-type-inner{width:9.25cm;padding:0 0.18cm 0.18cm 0.18cm;} 
 .pf-type .pf-type-inner .type-tit{height:1.22cm;color:#fff;font-size:1.125rem;display:flex;justify-content: center; align-items: center;}
 .pf-type .pf-type-inner .type-con{background:#fff;font-size:0.938rem;padding:0.55cm;text-align:center}
 
-table.tbl{border-top:0.05cm solid #373737;margin-top:0.42cm;font-weight:500}
+table.tbl{margin-top:0.42cm;font-weight:500}
 .bd_right{border-right:0.025cm dashed #ccc;}
-table.tbl th{background:#fff;height:1.14cm;vertical-align:middle;border-bottom:0.05cm solid #3989b0;font-size:0.875rem;border-right:0.025cm dashed #ccc;}
+table.tbl th{background:#e04f44;height:0.6cm;vertical-align:middle;font-size:0.575rem;border-right:0.03cm dotted #fec4b6;color:#fff;font-weight: 400;}
 table.tbl th:last-child{border-right:0}
-table.tbl tr:nth-child(6){border-bottom:0.05cm solid #289d42}
-table.tbl td[rowspan]{font-size:0.938rem;vertical-align: middle;text-align:center;background:#EDEDED;font-weight:700}
-table.tbl td{font-size:0.813rem;padding:0.26cm;text-align:center;border-bottom:0.025cm dashed #ccc;;border-right:0.025cm dashed #ccc;;vertical-align: middle;}
+table.tbl td[rowspan]{font-size:0.938rem;vertical-align: middle;text-align:center;background:#ffe1d9;font-weight: 400;}
+table.tbl td{font-size:0.813rem;padding:0.26cm;text-align:center;border-bottom:0.03cm dotted #fec4b6;border-right:0.03cm dotted #fec4b6;;vertical-align: middle;font-weight: 400;}
 table.tbl td:last-child{text-align:left;padding:0.26cm 0.3cm;border-right:0}
 
 .team_inner{padding:0.66cm 0 0 0;}
