@@ -611,114 +611,425 @@
           </tr>
         </table>
       </div>
-     
-    </section>
-    <section id="page_footer">타피루즈 그룹</section>
-  </page>
-  </page>
-  <page size="A4">
-    <section id="page_header"><h1>TAI - Profile</h1><div class="number">9</div></section>
-    <section id="content">
-      <div class="result_inner">
-        <h1 class="tx_red">TAI 결과 해석 <div class="label bg_green">생산성 총합</div></h1>
-        <div class="team_script">생산성 총합은 팀의 팀 정체성 등 팀의 협업과 정서적인 측면에 영향을 주는 요인들의 전체적인 강도를 <br>나타냅니다.
-</div>
-      </div>
-      <!--table-->
-      <table class="tbl_rsv" summary="생산성 총합">
-        <colgroup>
-          <col width="40%">
-          <col width="30%">
-          <col width="30%">
-        </colgroup>
-        <tr>
-          <th scope="col">구분</th>
-          <th scope="col">역동성</th>
-          <th scope="col">생산성</th>
-        </tr>
-        <tr>
-          <td>OOO팀</td>
-          <td class="">90점</td>
-          <td class="tx_green">80점</td>
-        </tr>
-      </table>
-      <!--table2-->
-      <table class="tbl04" summary="생산성 총합 점수">
-        <colgroup>
-          <col width="30%">
-          <col width="70%">
-        </colgroup>
-        <tr>
-          <th scope="col">생산성 총합 점수</th>
-          <th scope="col">특성</th>
-        </tr>
-        <tr>
-          <td>~69<br>(Low)</td>
-          <td>팀 생산성이 낮은 편입니다. 개인별로 가지고 있는 업무 목표가 불확실 하거나<br>팀의 방향성과 일치하지 않으며, 주도성과 주인의식 모두 부족한 상태이다.<br>팀원간 서로를 인정하기보다는 무관심한 분위기로
-            팀 성과 또한 내기 어려운 상황입니다. 
-            </td>
-        </tr>
-        <tr>
-          <td class="bg_blue01">70~77<br>(Medium~Low)</td>
-          <td class="bg_blue01">팀 역동성이 평균 이하로 팀 목표에 대해 어렴풋이 인지하고 있으나 이를<br> 달성하기 위한 방법은 알지 못하는 단계이다. 팀 내외에서 일어나는 변화에<br> 둔감하거나 대처가 미숙하며 눈에 띄는 성과를 내기 힘들기 때문에 팀원 전체의 사기도 저하 되어있을 가능성이 높습니다.
-          </td>
-        </tr>
-        <tr>
-          <td>78~85<br>(Medium~High)</td>
-          <td>팀 생산성이 평균 이상으로 개인과 팀 차원 업무 우선순위가 어느정도 <br>정렬되어 있으며, 능력을 발휘하는 경우 인정하는 분위기가 형성되어 있는 편입니다. 팀장 뿐 아니라 팀원들의 주도성 또한 높은 편으로 팀 성과를 내기에 수월한 환경입니다.
-          </td>
-        </tr>
-        <tr>
-          <td>86~<br>(High)</td>
-          <td>팀 생산성이 매우 높은 편으로, 팀 목표가 명확하게 세팅되어 있으며 이를 <br>달성하기 위한 전략 또한 체계적이고 효율적으로 세워져있습니다.<br> 팀 내외에서 일어나는 변화를 예측하고 주도하는 역량 또한 뛰어나<br> 팀 뿐 아니라 조직의 성과를 주도하며 새로운 업무를 진행할 때 창의적인 방법 또한 잘 찾아내고 시도합니다.
-          </td>
-        </tr>
-      </table>
-    </section>
-    <section id="page_footer">타피루즈 그룹</section>
-  </page>
-  </page>
-  <page size="A4">
-    <section id="page_header"><h1>TAI - Profile</h1><div class="number">10</div></section>
-    <section id="content">
-      <div class="team_inner">
-        <h1 class="tx_red"><div class="team_name">타피루즈</div> 프로파일 <span>(팀장 / 팀원 시각 비교)</span></h1>
-        <div class="team_script">아래의결과는 <div class="team_name01">타피루즈</div> TAI 결과 중 역동성과 생산성에 대한 팀장과 팀원의 시각차에 대한</div>
-        <div class="team_script">그래프입니다.</div>
-      </div>
-      <div class="graph_all">
-        <div class="graph_label bg_blue">역동성</div>
-        <div class="graph_all_innter">
-          <canvas id="page10-graph01" width="auto" height="100%" ></canvas>
-        </div>
-      </div>
-      <div class="graph_all">
-        <div class="graph_label bg_green">생산성</div>
-        <div class="graph_all_innter">
-          <canvas id="page10-graph02" width="auto" height="100%" ></canvas>
-        </div>
-      </div>
-      <div class="comment-con">
-        <div class="cmt-tit">comment</div>
-        <p>코멘트 들어감, 길어지면 스크롤</p>
-      </div>
-      <div class="graph_comment">
-        <div class="graph_popup" style="display:none">
-          <h1>코멘트입력<a href="#" class="close_btn">닫기</a></h1>
-          <textarea></textarea>
-          <div class="btn_area">
-            <a href="#" class="btn_basic_02">취소</a>
-            <a href="#" class="btn_basic_03">저장</a>
+      <ul class="pf-disc">
+        <li>1. 요인 별 점수는 왼쪽 박스(ㅁ)는 25점, 오른쪽 박스는 0점</li>
+        <li>2. 각 요인에 해당하는 4개 문항의 합을 요인명 옆에 기입 (최소 0점~최대 100점)</li>
+        <li>3. 요인 별 점수를 참고해 아래 도표에 표시</li>
+      </ul>
+      <!--graph table-->
+      <div class="pdi-graph-wrap">
+        <div class="pdi-graph-item">
+          <div class="tbl-graph-inner">
+            <div class="tbl-graph-txt">
+              <p class="tx_red">
+                개<br />
+                방<br />
+                성
+              </p>
+              <p>
+                안<br />
+                전<br />
+                성
+              </p>
+            </div>
+            <ul class="tbl-graph-y">
+              <li>80</li>
+              <li>60</li>
+              <li>40</li>
+              <li>20</li>
+              <li>0</li>
+            </ul>
+            <table class="tbl_graph" summary="PDI그래프">
+              <colgroup>
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+              </colgroup>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <ul class="tbl-graph-x">
+            <li>20</li>
+            <li>40</li>
+            <li>60</li>
+            <li>80</li>
+          </ul>
+          <div class="tbl-graph-txt">
+            <p>유연성</p>
+            <p class="tx_yellow">성실성</p>
           </div>
         </div>
-        <a href="#" class="btn_basic_01">코멘트 입력</a>
-        <div class="graph_btn_area">
-          <a href="#" class="btn_basic_01">발송</a>
-          <a href="#" class="btn_basic_01">다운로드</a>
+        <div class="pdi-graph-item">
+          <div class="tbl-graph-inner">
+            <div class="tbl-graph-txt">
+              <p class="tx_blue">
+                우<br />
+                호<br />
+                성
+              </p>
+              <p>
+                객<br />
+                관<br />
+                성
+              </p>
+            </div>
+            <ul class="tbl-graph-y hidden">
+              <li>80</li>
+              <li>60</li>
+              <li>40</li>
+              <li>20</li>
+              <li>0</li>
+            </ul>
+            <table class="tbl_graph" summary="PDI그래프">
+              <colgroup>
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+              </colgroup>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <ul class="tbl-graph-x">
+            <li>20</li>
+            <li>40</li>
+            <li>60</li>
+            <li>80</li>
+          </ul>
+          <div class="tbl-graph-txt">
+            <p>내향성</p>
+            <p class="tx_green">외향성</p>
+          </div>
         </div>
       </div>
     </section>
-    <section id="page_footer">타피루즈 그룹</section>
+  </page>
+  </page>
+  <page size="A4">
+    <section id="page_header"><h1>TAPI - 드레일먼트</h1><div class="number">9</div></section>
+    <section id="content">
+      <ul class="pf-ul">
+        <li>
+          <div class="pf-tit"><span>진단 항목 결과</span></div>
+          <div class="pf-result">
+            <div class="pf-type">
+              <div class="pf-type-ic">
+                <div class="type-icon">
+                  <div><img src="../../img/docs_circle.png" alt="docs_circle"></div>
+                  <div><img src="../../img/docs_icon03.png" alt="docs_icon01"></div>
+                </div>
+                <p class="type-con">
+                 드레일먼트
+                </p>
+              </div>
+            </div>
+            <p class="pf-inner03">
+              나의 강점에 자연스럽게 따라올 수 있는 그림자이자,<br /> 
+              내가 극한에 몰렸을 때 나도 모르게 튀어나오는<br />
+              부정적인 행동 패턴 및 성향
+            </p>
+          </div>
+          
+        </li>
+      </ul>
+      <!--graph-->
+      <div class="team-graph-wrap04"></div>
+      <ul class="dm-ul">
+        <li>드레일먼트(Derailment)는 기차가 선로에서 탈선을 하는 것처럼 평상시에는 삶의 레일에서</li>
+        <li>잘 가고 있다가 특정 상황이나 환경에서 자신도 모르게 부정적인 패턴이 나오는 것을 이야기합니다.</li>
+      </ul>
+      <ul class="dm-ul">
+        <li>드레일먼트가 아래와 같은 상황이 나오면 경각심을 가져야 합니다.</li>
+        <li class="accent">1) 2~3년간 특정 항목이 반복되는 경우</li>
+        <li class="accent">2) 항목 중 70% 이상의 수치가 나온 경우</li>
+      </ul>
+      <ul class="dm-ul">
+        <li>드레일먼트는 직급, 연차에 상관없이 수면위로 나올 수 있습니다. 조직내에서</li>
+        <li>중요 직책을 맡은 경우는 행동으로 수면위로 빠르게 나오는 경우가 많아서 의도적인 노력이 요구됩니다.</li>
+        <li>또한 중요 직책을 맡은 분들도 중요 직책을 맡은 후에 나올 가능성이 커서</li>
+        <li>사전에 예방 효과를 가져올 수 있습니다.</li>
+      </ul>
+    </section>
+  </page>
+  </page>
+  <page size="A4">
+    <section id="page_header"><h1>TAI - Reflection</h1><div class="number">10</div></section>
+    <section id="content">
+      <ul class="pf-ul">
+        <li>
+          <div class="pf-tit"><span>생각해봅시다</span></div>
+          <p class="ref-tit">
+            Q. 지속적으로 유지해야 할 행동이나 사항은 무엇인가요?
+           </p>
+        </li>
+      </ul>
+      <div class="ref-text-wrap">
+        <div class="ref-text-box"></div>
+      </div>
+      <p class="ref-tit">
+        Q. 멈추거나 차츰 줄여나가야 할 사항은 무엇인가요?
+       </p>
+      <div class="ref-text-wrap">
+        <div class="ref-text-box"></div>
+      </div>
+      <p class="ref-tit">
+        Q. 새롭게 도전을 해 볼 사항은 무엇인가요?
+       </p>
+      <div class="ref-text-wrap">
+        <div class="ref-text-box"></div>
+      </div>
+    </section>
   </page>
   </page>
 
