@@ -206,16 +206,16 @@ input[type="radio"]{ position: absolute;width: 1px;height: 1px;padding: 0; margi
 input[type="radio"]:checked, input[type="radio"]:not(:checked) { position: absolute; left: -9999px;}
 input[type="radio"]:checked + label.chk_label,
 input[type="radio"]:not(:checked) + label.chk_label {  position: relative;  width:92px; height:120px; cursor: pointer; font-size:1.9rem; font-weight:500;  display: flex;
-  align-items: flex-end;color:#9d9d9d;}
+  align-items: flex-end;color:#9d9d9d;justify-content: center;}
   input[type="radio"]:checked + label.chk_label{color:var(--tai-red)}
 input[type="radio"]:checked + label.chk_label:before,
 input[type="radio"]:not(:checked) + label.chk_label:before { content: '';  position: absolute;  left: 12px;  top: 0;
-  width: 60px;  height: 60px;
+  width: 6rem;  height: 6rem;
   background:url("../img/white_circle.png")no-repeat center/cover;  }
 input[type="radio"]:checked + label:before { }
 input[type="radio"]:checked + label.chk_label:after,
 input[type="radio"]:not(:checked) + label.chk_label:after {  content: '';
-width:60px;  height:60px; 
+width:6rem;  height:6rem; 
 background: url("../img/red_circle.png")no-repeat center/cover;  position: absolute;  top:0px;  left:12px;   -webkit-transition: all 0.2s ease;  transition: all 0.2s ease;
 }
 input[type="radio"]:not(:checked) + label.chk_label:after { opacity: 0;  -webkit-transform: scale(0);  transform: scale(0);}
