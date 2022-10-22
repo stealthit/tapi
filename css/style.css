@@ -295,14 +295,16 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
  }
 
 @media (max-width:1300px){
- #research-list header p { font-size: 2.8rem; } 
- #research-list header .header-right { width: 70rem; } 
- #research-list header .header-right::after { font-size: 1.5rem; top: 31px; left: -2.4rem; } 
- #research-list header .header-right::before { font-size: 1.5rem; top: 30px; right: -4.5rem; } 
+ #research-list header p { font-size: 2.8rem; justify-content: flex-start;} 
+ #research-list header .header-right { width: 82rem; } 
+ #research-list header .header-right::after { font-size: 2rem; top: 38px; left: -3.8rem; } 
+ #research-list header .header-right::before { font-size: 2rem; top: 35px; right: -6.5rem; } 
+
+ #research-list header { flex-direction: column; align-items:initial; height: auto; } 
+ #research-list header .header-right { margin:20px auto 0; } 
  }
 
 @media (max-width:1023px) { 
-    #research-list header{padding:0 70px;}
 .login-wrap .content h3 { font-size: 5.7rem; } 
 .login-wrap .content p { font-size: 3.1rem; } 
 .login-wrap .content p span { font-size: 3.1rem; } 
@@ -319,9 +321,7 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
 
 
 .rsc-list-ul li .chk-header p { white-space: normal; } 
-
- #research-list header p { font-size: 2.8rem; } 
- #research-list header .header-right { width: 45rem; } 
- #research-list header .header-right::after { font-size: 1rem; top: 19px; left: -2.1rem; } 
- #research-list header .header-right::before { font-size: 1rem; top: 19px; right: -3.5rem; } 
+#research-list  header .header-right { width: 90%; } 
+ #research-list header .header-right::after {  top: 30px;  } 
+ #research-list header .header-right::before { top: 30px;  } 
  }
