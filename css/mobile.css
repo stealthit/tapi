@@ -140,26 +140,29 @@ input[type="radio"]:checked + label.chk_label:before, input[type="radio"]:not(:c
 input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:checked) + label.chk_label:after { background-size: 50px; } 
  }
 
-@media (max-width:426px){
+@media (max-width:426px) { /* login */
+ .login-wrap .nav01 { width: 88.125vw; margin: 0 auto; } 
+ .login-wrap .content h3 { font-size: 4.7rem; } 
+ .login-wrap .content p { font-size: 1.7rem; } 
+ .login-wrap .content p span { font-size: 1.9rem; } 
+ .login-box .input { width: 56.3125vw; height: 50px; } 
+
  .intro-wrap { padding: 0 20px; } 
  .intro-wrap .content h3 { font-size: 3.4rem; } 
 
  #research-list header { padding: 0 30px; } 
  .rsc-list-ul li .chk-header p { font-size: 1.5rem; } 
- input[type="radio"]:checked + label.chk_label, input[type="radio"]:not(:checked) + label.chk_label
- {
- font-size: 1.2rem; } 
-.rsc-list-ul li .btn_basic_02 { width: 28.5rem; } 
-#research-list header p { font-size: 1.5rem; } 
-#research-list header .header-right::before { right:-3rem; top: 1.1rem; font-size: 0.5rem;} 
-#research-list header .header-right::after {left:-1.8rem; top: 1.2rem; font-size: 0.5rem;} 
+ input[type="radio"]:checked + label.chk_label, input[type="radio"]:not(:checked) + label.chk_label { font-size: 1.2rem; } 
+ .rsc-list-ul li .btn_basic_02 { width: 28.5rem; } 
+ #research-list header p { font-size: 1.5rem; } 
+ #research-list header .header-right::before { right:-3rem; top: 1.1rem; font-size: 0.5rem; } 
+ #research-list header .header-right::after { left:-1.8rem; top: 1.2rem; font-size: 0.5rem; } 
  }
 
  @media (max-width:320px){
  .rsc-list { padding:0 4rem } 
  .rsc-list-ul li .rsc-list-gage .gage-ul { left: -33px; } 
- #research-list header .header-right::before {  top: 0.8rem; } 
-#research-list header .header-right::after { top: 0.8rem; } 
-
+ #research-list header .header-right::before { top: 0.8rem; } 
+ #research-list header .header-right::after { top: 0.8rem; } 
  }
 
