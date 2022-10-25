@@ -118,11 +118,9 @@ table.tbl-type01 tfoot td .type-label { min-width:135px; padding-right:10px; }
 /*var(--tai-green)*/
 
 
-.rsc-end { width:90vw; height:400px; background-size:90vw auto; margin:0 auto } 
-.rsc-end .btn_basic_01 { width:60vw; margin-top:200px } 
-.rsc-end h1 { width:80vw } 
-.rsc-end p { margin:20px 0 30px } 
-.rsc-list-ul li:last-child { height: 6rem; } 
+.rsc-end { gap: 5rem; background: url(../img/rsc-end.png)no-repeat right/contain; background-size: 116rem; } 
+.rsc-end h1 { font-size: 5rem; } 
+.rsc-end p { font-size: 2.8rem; } 
 
 @media (max-width:767px){
  .rsc-list { padding: 0 5rem; } 
@@ -145,7 +143,7 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  .login-wrap .content h3 { font-size: 4.7rem; } 
  .login-wrap .content p { font-size: 1.7rem; } 
  .login-wrap .content p span { font-size: 1.9rem; } 
- .login-box .input { width: 56.3125vw; height: 50px; } 
+ .login-box .input { width: 56.3125vw; height: 50px; font-size: 1.8rem; } 
 
  .intro-wrap { padding: 0 20px; } 
  .intro-wrap .content h3 { font-size: 3.4rem; } 
@@ -157,6 +155,11 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  #research-list header p { font-size: 1.5rem; } 
  #research-list header .header-right::before { right:-3rem; top: 1.1rem; font-size: 0.5rem; } 
  #research-list header .header-right::after { left:-1.8rem; top: 1.2rem; font-size: 0.5rem; } 
+
+ .nav01 { width: 67.125vw; } 
+ .rsc-end { gap: 3rem; background: url(../img/rsc-end.png)no-repeat top right/contain; background-size: 75rem; } 
+ .rsc-end h1 { font-size: 3rem; margin-top: 2rem; } 
+ .rsc-end p { font-size: 1.8rem; } 
  }
 
  @media (max-width:320px){

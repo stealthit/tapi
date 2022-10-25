@@ -59,8 +59,8 @@ input[type="text"].input { border:1px solid #888; border-radius: 10px; backgroun
 
 
 /* rsc-end */
-.rsc-end { background: url(../img/rsc-end.png)no-repeat center; width:100%; height:100%; display: flex; align-items: center; justify-content: center; flex-direction: column; gap:70px } 
-.rsc-end h1 { font-size:7rem; color:var(--tai-orange); } 
+.rsc-end { background: url(../img/rsc-end.png)no-repeat bottom/contain; width:100%; height:100%; display: flex; align-items: center;  flex-direction: column; gap:7rem } 
+.rsc-end h1 { font-size:7rem; color:var(--tai-orange);margin-top: 16rem; } 
 .rsc-end p { font-size:3.8rem; } 
 
 /***************************************************************************************
