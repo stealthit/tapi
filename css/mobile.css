@@ -134,7 +134,7 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  .login-wrap .content p { font-size: 1.5rem; } 
  .login-wrap .content p span { font-size: 1.9rem; } 
  .login-box .input { width: 56.3125vw; height: 40px; font-size: 1.8rem; } 
- .login-btn { min-width:15.4rem; min-height: 4.2rem; font-size: 2.1rem; margin: 0 auto; border-radius: 22px; } 
+ .login-btn { width:18rem; font-size: 2.1rem; margin: 0 auto; border-radius: 22px; } 
 
  .intro-wrap { padding: 0 20px; } 
  .intro-wrap .content h3 { font-size: 3.4rem; } 
