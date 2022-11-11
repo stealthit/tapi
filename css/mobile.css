@@ -106,7 +106,7 @@ table.tbl-type01 tfoot td .type-label { min-width:135px; padding-right:10px; }
 
 
 .rsc-end { gap: 5rem; background: url(../img/rsc-end.png)no-repeat right/contain; background-size: 116rem; } 
-.rsc-end h1 { font-size: 5rem; } 
+.rsc-end h1 { font-size: 5rem;margin-top: 7rem; } 
 .rsc-end p { font-size: 2.8rem; } 
 
 @media (max-width:767px){
