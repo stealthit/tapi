@@ -111,7 +111,7 @@ table.tbl-type01 tfoot td .type-label { min-width:135px; padding-right:10px; }
 
 @media (max-width:767px){
  .rsc-list { padding: 0 5rem; } 
-.rsc-list-ul li .chk-header p { font-size: 1.8rem; } 
+.rsc-list-ul li .chk-header p { font-size: 1.8rem; word-break: keep-all;} 
 input[type="radio"]:checked + label.chk_label, input[type="radio"]:not(:checked) + label.chk_label { font-size: 1.3rem; } 
 .rsc-list-ul li .rsc-list-gage { width: 96%; } 
 .rsc-list-ul li .rsc-list-gage .gage-bar { width:90% } 
