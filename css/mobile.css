@@ -128,7 +128,11 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  .rsc-end p { font-size: 2.2rem; } 
  }
 
-@media (max-width:426px) { /* login */
+@media (max-width:426px) { 
+   .mo-only{display:block;} 
+   .pc-only{display:none;} 
+    
+    /* login */
  .login-wrap .nav01 { width: 88.125vw; margin: 0 auto; } 
  .login-wrap .content h3 { font-size: 5.7rem; } 
  .login-wrap .content p { font-size: 1.5rem; } 
@@ -137,7 +141,9 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  .login-btn { width:18rem; font-size: 2.1rem; margin: 0 auto; border-radius: 22px; } 
 
  .intro-wrap { padding: 0 20px; } 
- .intro-wrap .content h3 { font-size: 3.4rem; } 
+ .intro-wrap .content h3 { font-size: 3.2rem; } 
+ .intro-wrap .content p{font-size: 1.9rem;}
+ .intro-wrap .content p:last-child{font-size: 2.3rem;}
 
  #research-list header { padding: 0 30px; } 
  .rsc-list { padding:0 1rem } 

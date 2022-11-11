@@ -15,7 +15,7 @@
 [id="research-end"] .wrap_con { width:100%; justify-content:center; position:relative; padding:0; align-items: flex-start; display:flex; } 
 [id="tai-load"] .wrap_con { flex-direction: row; } 
 .wrap_con { width:600px; height:100%; margin:auto; display:flex; align-items: center; justify-content: center; flex-direction: column; } 
-
+.mo-only{display:none;} 
 .warring { color: var(--tai-red); } 
 .btn-red { width:auto; background:var(--tai-red); border-radius:52px; align-items: center; display:flex; justify-content: center; box-shadow: inset -5px 4px 5px rgb(0 0 0 / 50%); color:#fff; } 
 input[type="text"].input { border:1px solid #888; border-radius: 10px; background-color: #fff; } 
