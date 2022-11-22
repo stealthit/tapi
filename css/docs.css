@@ -410,27 +410,27 @@ table.tbl04 td:first-child{font-weight:700;font-family: 'Roboto', sans-serif;fon
 .ic-chkbox{width:0.33cm;height:0.33cm;border:2px solid #000;display: inline-block;}
 
 /*표지*/
-#page_intro{height:100%;padding:0.42cm 0.4765cm ;position:relative;  font-family:'tway';}
+#page_intro{height:100%;padding:0.42cm 0.4765cm ;position:relative}
 #page_intro .page_corner{width:0;height:0;border-right:0.582cm solid #ffffff;border-left:0.582cm solid #c4c4c4;border-top:0.582cm solid #ffffff;border-bottom:0.582cm solid #c4c4c4;position:absolute;top:0.42cm;right:0.4765cm;z-index:3}
-#page_intro .page_inner{width:10cm;margin: 0 auto;}
-#page_intro .page_inner01{width:100%;margin-top: 6.1cm;}
+#page_intro .page_inner{width:20.047cm;height:28.86cm;border:0.03cm solid #d7d7d7;padding:0;position:relative}
+#page_intro .page_inner [class*="page_inner_"]{font-size:0;position:absolute;}
+#page_intro .page_inner .page_inner_t{width:100%;height:0.264cm;border-bottom:0.03cm solid #d7d7d7;top:0;left:0;}
+#page_intro .page_inner .page_inner_l{width:0.264cm;height:100%;border-right:0.03cm solid #d7d7d7;top:0;left:0;}
+#page_intro .page_inner .page_inner_r{width:0.264cm;height:100%;border-left:0.03cm solid #d7d7d7;top:0;right:0;}
+#page_intro .page_inner .page_inner_b{width:100%;height:1.5875cm;border-top:0.03cm solid #d7d7d7;border-bottom:0.03cm solid #d7d7d7;bottom:0.264cm;left:0;display:flex;flex-direction: row; justify-content: center;}
 
-#page_intro .intro_img{background: url(../img/intro_img.png)no-repeat center/contain;width:8.66cm;height:6.77cm;margin:0 auto 1.11cm;}
-#page_intro .intro_tag{position:absolute;top:1.69cm;right:1.69cm;font-style: italic; font-weight:700;text-align: center;letter-spacing:-0.05rem;color:#333;display:flex;flex-direction: column;}
-#page_intro .intro_tag span{width:1.72cm;height:0.05cm;background:#FFDF6C;margin:0 auto 0.26cm auto}
-#page_intro .intro_tit li{display:flex;justify-content: center;align-items: center;font-family:'tway';text-align: center; font-size:3.7rem;color:#ff5100;}
-#page_intro .intro_tit li:first-child{line-height: 4.1rem;}
-#page_intro .intro_tit li:last-child{border-bottom:0;font-size: 1.2rem;margin-top: 0.78cm;}
+#page_intro .page_inner01{width:19.459cm;height:26.6845cm;margin:0.264cm;background:url("img/intro_img.png") no-repeat right bottom;}
 
-#page_intro .intro_partner{display:flex;flex-direction: column;list-style-type:none;margin-top: 2.78cm;margin-bottom: 3.5cm;}
-#page_intro .intro_partner li:first-child{margin-bottom:1.16cm}
-#page_intro .intro_partner .btn-red{width:4cm;height: 1.24cm;font-size: 1.5rem;font-family:'tway';}
-#page_intro .intro_partner li:last-child .btn-red{background-color: #707070;}
-#page_intro .intro_partner li{display: flex; gap:10px;}
-#page_intro .intro_partner .word-box{height: 45px;width:200px;font-size: 1.5rem;display: inline-flex;align-items: center;padding-left: 10px;color:#000;font-family: 'tway';background-color: #fff;}
+#page_intro .intro_tag{width:4.5cm;height:2.75cm;position:absolute;top:1.69cm;right:0.8cm;text-align: center;letter-spacing:-0.05rem;color:#333;display:flex;flex-direction: column;background: url(../img/intro_by.png)no-repeat center center/contain;}
+#page_intro .intro_tit{position:absolute;top:1.69cm;left:1.69cm;width:3.175cm;border:0.079cm solid #bd4b4b;display:flex;flex-direction: column;list-style-type:none;padding:0 0.44cm}
+#page_intro .intro_tit li{height:2.84cm;display:flex;justify-content: center;align-items: center;font-family: "S-CoreDream",sans-serif; font-size:3.75rem;color:#7D7D7D;border-bottom:0.025cm solid #bfbfbf;font-weight: 500;}
+#page_intro .intro_tit li:last-child{border-bottom:0;}
 
-#page_intro #page_footer{width:3.95cm;height: 1.15cm; position:absolute;bottom:0.45cm;right:0; background:url("../img/footer-logo.png")no-repeat center/contain ;
-  font-size:0}
+#page_intro .intro_partner{position:absolute;top:21.13cm;left:1.69cm;display:flex;flex-direction: column;list-style-type:none;}
+#page_intro .intro_partner li{display:flex;flex-direction:row;;font-size:2rem;font-weight:700;padding-bottom:1.16cm;}
+#page_intro .intro_partner li .label{display:flex;flex-direction:row;color:#777;letter-spacing:-0.03rem;background:url("img/intro-bg-line.png") repeat-x 0 calc(50% + 0.026cm);margin-right:0.185cm}
+#page_intro .intro_partner li .label span{background:#fff;padding-right:0.185cm;color:#000}
+
 canvas{height:100%;width:auto;max-height:100%;margin:0 auto}
 
 
