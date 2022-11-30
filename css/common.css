@@ -1,68 +1,17 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
-@font-face { 
-  font-family:'Noto Sans KR';
-  font-style:normal;
-  font-weight: 300; 
-  src:
-  url(../font/NotoSansKR-Light.woff2) format('woff2'), 
-  url(../font/NotoSansKR-Light.woff) format('woff'), 
-  url(../font/NotoSansKR-Light..oft) format('opentype')
-}
+@font-face { font-family: 'Pretendard'; font-style: normal; font-weight: normal; src:
+  url(../font/Pretendard-Regular.otf) format('opentype'),}
 
-@font-face { 
-  font-family:'Noto Sans KR';
-  font-style:normal;
-  font-weight: 400; 
-  src:
-  url(../font/NotoSansKR-Regular.woff2) format('woff2'), 
-  url(../font/NotoSansKR-Regular.woff) format('woff'), 
-  url(../font/NotoSansKR-Regular.oft) format('opentype')
-}
+  @font-face { font-family: 'Pretendard'; font-style: normal; font-weight: 500; src:
+    url(../font/Pretendard-Medium.otf) format('opentype'),}
+  
 
-@font-face { 
-  font-family:'Noto Sans KR';
-  font-style:normal;
-  font-weight: 500; 
-  src:
-  url(../font/NotoSansKR-Medium.woff2) format('woff2'), 
-  url(../font/NotoSansKR-Medium.woff) format('woff'), 
-  url(../font/NotoSansKR-Medium.oft) format('opentype')
-}
-
-@font-face { 
-  font-family:'Noto Sans KR';
-  font-style:normal;
-  font-weight: 700; 
-  src:
-  url(../font/NotoSansKR-Bold.woff2) format('woff2'), 
-  url(../font/NotoSansKR-Bold.woff) format('woff'), 
-  url(../font/NotoSansKR-Bold.oft) format('opentype')
-}
-
-@font-face { 
-  font-family:'tway';
-  font-style:normal;
-  font-weight: normal; 
-  src:
-  url(../font/tway_air.ttf) format('truetype')
-}
-
-@font-face { 
-  font-family:'SCDream';
-  font-style:normal;
-  font-weight: 100; 
-  src:
-  url(../font/SCDream1.otf) format('opentype')
-}
-@font-face { 
-  font-family:'SCDream';
-  font-style:normal;
-  font-weight: 400; 
-  src:
-  url(../font/SCDream4.otf) format('opentype')
-}
+ @font-face { font-family: 'Pretendard'; font-style: normal; font-weight: 600; src:
+  url(../font/Pretendard-SemiBold.otf) format('opentype'),}
+ 
+ @font-face { font-family: 'Pretendard'; font-style: normal; font-weight: Bold; src:
+  url(../font/Pretendard-Bold.otf) format('opentype'),}
 
 :root {
   --tai-gray-100:#eee;
@@ -103,12 +52,12 @@
   --tai-btn-border-green:#4ab862;
   --tai-btn-border-orange:#f18f2c;
 
-  --tai-font-sans-serif: "tway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --tai-font-tit-sans-serif: "tway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --tai-font-sans-serif: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --tai-font-tit-sans-serif: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --tai-font-num-sans-serif: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-  --tai-body-font-family: "tway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --tai-body-tit-font-family: "tway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --tai-body-font-family: "Pretendard", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --tai-body-tit-font-family: "Pretendard", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 
   --tai-body-font-size: 1.8rem; /*18px*/
   --tai-body-font-m-size: 1.4rem; /*14px*/

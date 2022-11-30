@@ -15,7 +15,7 @@
 [id="research-end"] .wrap_con { width:100%; justify-content:center; position:relative; padding:0; align-items: flex-start; display:flex; } 
 [id="tai-load"] .wrap_con { flex-direction: row; } 
 .wrap_con { width:600px; height:100%; margin:auto; display:flex; align-items: center; justify-content: center; flex-direction: column; } 
-.mo-only{display:none;} 
+.mo-only { display:none; } 
 .warring { color: var(--tai-red); } 
 .btn-red { width:auto; background:var(--tai-red); border-radius:52px; align-items: center; display:flex; justify-content: center; box-shadow: inset -5px 4px 5px rgb(0 0 0 / 50%); color:#fff; } 
 input[type="text"].input { border:1px solid #888; border-radius: 10px; background-color: #fff; } 
@@ -23,12 +23,20 @@ input[type="text"].input { border:1px solid #888; border-radius: 10px; backgroun
 /* intro */
 .intro-wrap { width:100%; height:100%; position:relative; background: url(../img/intro_bg.png)no-repeat center; display: flex; justify-content: center; align-items: center; flex-direction: column; } 
 .intro-wrap .content { text-align: center; } 
-.intro-wrap .content h3 { font-size: 5.4rem; margin-bottom: 50px; color:var(--tai-orange) } 
-.intro-wrap .content p { font-size: 2.8rem; } 
+.intro-wrap .content h3 { font-size: 5.4rem; margin-bottom: 50px; color:var(--tai-orange);font-weight: 600; } 
+.intro-wrap .content p { font-size: 2.8rem; font-weight: 600; } 
 .intro-wrap .content p:last-child { font-size: 3.2rem; color:var(--tai-orange); margin-top: 50px; } 
 
+/* 221130 추가 */
+.intro-wrap .start-step-img { position: relative; margin-top: 2rem;} 
+.intro-wrap .start-step-img div {margin: 0 auto; } 
+.intro-wrap .start-step-img div img { width:100%; } 
+.intro-wrap .start-step-img ul { display: flex; align-items: center; gap: 8.3rem; position: absolute; left: -40px; top: 60px; width: 75rem; } 
+.intro-wrap .start-step-img ul li { font-size: 2.7rem;font-weight: 500; } 
+
+
 .intro-btn { margin-top:75px; display:flex; justify-content: center; align-items: center; } 
-.intro-btn > a { min-width:500px; min-height:85px; font-size: 4.3rem; } 
+.intro-btn > a { min-width:500px; min-height:85px; font-size: 4.3rem;font-weight: bold; } 
 .intro-btn > a:hover { background:var(--tai-red); } 
 
 /* nav */
@@ -221,8 +229,8 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
 #research-list header h1 { font-size:var(--tai-font-size-32); font-weight:700; color:var(--tai-body-color); flex:1 1 50% } 
 #research-list header p { font-size:3.8rem; color:var(--tai-red); display:flex; justify-content: flex-end; align-items: flex-end; } 
 #research-list header .header-right { position: relative; width: 900px; } 
-#research-list header .header-right::after { content:'0%'; position:absolute; clear: both; top:38px; left:-40px; font-size: 2rem; font-family:'SCDream'; color:var(--tai-red) } 
-#research-list header .header-right::before { content:'100%'; position:absolute; clear: both; top:38px; right:-60px; font-size: 2rem; font-family:'SCDream'; color:var(--tai-red) } 
+#research-list header .header-right::after { content:'0%'; position:absolute; clear: both; top:38px; left:-40px; font-size: 2rem; font-family:'Pretendard'; color:var(--tai-red) } 
+#research-list header .header-right::before { content:'100%'; position:absolute; clear: both; top:38px; right:-60px; font-size: 2rem; font-family:'Pretendard'; color:var(--tai-red) } 
 
 .rsc-list-ul { width:100%; display: flex; flex-direction: column; justify-content: flex-start; margin:30px 0 100px } 
 .rsc-list-ul li { display: flex; flex-direction:column; height:360px; padding:0; margin:0; } 
