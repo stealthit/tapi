@@ -14,9 +14,10 @@ footer { width:100%; height:40px; font-size:1.2rem; margin-top: 2rem; }
 .intro-wrap .content p:last-child { font-size: 2.5rem; } 
 
 /* 221130 추가 */
-.intro-wrap .start-step-img div { width: 100%; } 
-.intro-wrap .start-step-img ul { gap: 6.8rem; top: 50px; width: 54rem; } 
+.intro-wrap .start-step-img div { margin:0 2.5rem; } 
+.intro-wrap .start-step-img ul { position: static; justify-content: space-between;width:auto;gap:0;} 
 .intro-wrap .start-step-img ul li { font-size: 1.8rem; } 
+
 
 
 .intro-btn > a { min-width:65.1042vw; font-size: 3rem; } 
@@ -134,7 +135,6 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  .rsc-end p { font-size: 2.2rem; } 
 
  /* 221130 추가 */
- .intro-wrap .start-step-img ul { gap: 4.8rem; top: 50px; left: 24px; width: 42rem; } 
  .intro-wrap .start-step-img ul li { font-size: 1.5rem; } 
  }
 
@@ -156,8 +156,17 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  .intro-wrap .content p:last-child { font-size: 2.3rem; } 
 
  /* 221130 추가 */
- .intro-wrap .start-step-img ul { gap: 4.8rem; top: 50px; left: 24px; width: 42rem; } 
- .intro-wrap .start-step-img ul li { font-size: 1.5rem; } 
+ .intro-wrap .start-step-img ul li { font-size: 1.3rem; }
+ input[type="radio"]:checked + label.chk_label:before,
+ input[type="radio"]:not(:checked) + label.chk_label:before { left: 16px; top: 8px; width: 4.5rem; height: 4.5rem;  } 
+ input[type="radio"]:checked + label.chk_label:after,
+ input[type="radio"]:not(:checked) + label.chk_label:after { width:3.7rem; height:3.7rem;top:12px; left:20px; } 
+ 
+ :is(.gn02, .gn03) input[type="radio"]:checked + label.chk_label:before,
+ :is(.gn02, .gn03) input[type="radio"]:not(:checked) + label.chk_label:before {  top: 15px; width: 3.5rem; height: 3.5rem;left:26px; } 
+ :is(.gn02, .gn03) input[type="radio"]:checked + label.chk_label:after,
+ :is(.gn02, .gn03) input[type="radio"]:not(:checked) + label.chk_label:after { width:2.7rem; height:2.7rem; top:19px; left:30px }
+
 
  #research-list header { padding: 0 30px; } 
  .rsc-list { padding:0 1rem } 
@@ -184,5 +193,10 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
  .rsc-list-ul li .rsc-list-gage .gage-ul { left: -33px; } 
  #research-list header .header-right::before { top: 0.8rem; } 
  #research-list header .header-right::after { top: 0.8rem; } 
+ /* 221130추가 */
+ input[type="radio"]:checked + label.chk_label:before,
+ input[type="radio"]:not(:checked) + label.chk_label:before { left: 23px;  } 
+ input[type="radio"]:checked + label.chk_label:after,
+ input[type="radio"]:not(:checked) + label.chk_label:after {  left:27px; } 
  }
 

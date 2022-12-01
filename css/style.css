@@ -31,6 +31,7 @@ input[type="text"].input { border:1px solid #888; border-radius: 10px; backgroun
 .intro-wrap .start-step-img { position: relative; margin-top: 2rem;} 
 .intro-wrap .start-step-img div {margin: 0 auto; } 
 .intro-wrap .start-step-img div img { width:100%; } 
+/* .intro-wrap .start-step-img ul { display: flex; align-items: center; justify-content: space-between;}  */
 .intro-wrap .start-step-img ul { display: flex; align-items: center; gap: 8.3rem; position: absolute; left: -40px; top: 60px; width: 75rem; } 
 .intro-wrap .start-step-img ul li { font-size: 2.7rem;font-weight: 500; } 
 
@@ -236,7 +237,8 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
 .rsc-list-ul li { display: flex; flex-direction:column; height:360px; padding:0; margin:0; } 
 .rsc-list-ul li .chk-header { height:50px; display: flex; align-items: center; justify-content: flex-start; flex-direction: row; font-size:var(--tai-font-size-18) } 
 .rsc-list-ul li .chk-header span { width:30px; height:30px; background:var(--tai-orange); color:var(--tai-white); flex:0 1 30px; margin-right:10px; border-radius: 15px; padding-top:1px; text-align: center;; font-family: var(--tai-font-num-sans-serif); } 
-.rsc-list-ul li .chk-header p { font-size: 3.5rem; text-align: left; white-space: nowrap; } 
+/* 221130 fontweight 추가 */
+.rsc-list-ul li .chk-header p { font-size: 3.5rem; text-align: left; white-space: nowrap;font-weight: bold; } 
 
 .rsc-list-ul li .chk-header p { flex:1 1 80% } 
 .rsc-list-ul li .btn_basic_02 { width:335px; margin:0 auto } 
@@ -298,7 +300,7 @@ table.tbl-type01 tfoot td li .type-txt { color:var(--tai-black-400); font-size:v
 @media (max-width:1440px){
  .container { width:100%; } 
  .rsc-list { padding: 0 10.5rem; } 
- .rsc-list-ul li .chk-header p { font-size: 2.5rem; } 
+ .rsc-list-ul li .chk-header p { font-size: 2.3rem; } 
  #research-list header p { font-size: 2.8rem; } 
  }
 
