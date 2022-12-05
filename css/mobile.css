@@ -170,7 +170,8 @@ input[type="radio"]:checked + label.chk_label:after, input[type="radio"]:not(:ch
 
  #research-list header { padding: 0 30px; } 
  .rsc-list { padding:0 1rem } 
- .rsc-list-ul li .chk-header p { font-size: 1.3rem; text-align: center; } 
+ /* 221205 textalign: left 추가 */
+ .rsc-list-ul li .chk-header p { font-size: 1.3rem; text-align: left; } 
  input[type="radio"]:checked + label.chk_label, input[type="radio"]:not(:checked) + label.chk_label { font-size: 1.2rem; } 
  .rsc-list-ul li .btn_basic_02 { width: 28.5rem; } 
  .rsc-list-ul li { height: 22rem; } 
